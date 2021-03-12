@@ -1,0 +1,100 @@
+/* Establishing the background color of the resume */
+body{
+  background-color:rgb(210, 250, 159);
+}
+/* Establishing the appearance of the heading */
+h1 {
+  color: rgb(210, 250, 159);
+  background-color: black;
+  font-family: Serif;
+  font-size: 48px;
+  letter-spacing: 10px;
+}  
+
+/* Establishing the appearance of the sub-heading */
+h2 {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+ padding: 24px 10px, 24px, 10px; 
+ letter-spacing: 3px;
+}
+
+/* Establishing the rulers so that they are styled and point towards the headshot */
+hr {
+  background: black;
+  border: 1px;
+  color: black;
+  height: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transform: rotate(-5deg);
+  width: 700px;
+}
+
+/*Establish anchor and pseudo class links */
+a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+a:link    { color: rgb(59, 59, 250);  }
+a:visited { color: rgb(125, 151, 6);   }
+a:hover   { color: rgb(241, 124, 236); }
+a:active  { color: rgb(238, 18, 55);  }
+
+/* Establish position and border of headshot */
+img {
+  margin: 20px;
+  border: 10px solid black;
+ }
+
+/* Establish rounding to be applied to headshot */
+.image-rounding {
+  border-radius: 10%; 
+}
+
+/*Establish parameters for all teritary headings */
+h3{
+  text-align:center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+/*Set parameters for the numbered intro information */
+ol {
+  margin-left: 160px;
+  margin-right: 160px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+/* Set parameters for the bulleted contact list */
+ul {
+  margin-left: 400px;
+  margin-right: 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+/* Format to be applied to all paragraphs */
+p {
+  text-align:center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Establish the footer */
+footer {
+  font-size: 24px;
+  padding: 10px;
+}
+
+/* Compile several elements in the below wrapper */
+.wrapper {
+  color: rgb(210, 250, 159);
+  background-color: black;
+  text-align: center;
+  border: 3px solid rgb(210, 250, 159);  
+}
