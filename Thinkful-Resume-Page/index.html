@@ -5,6 +5,7 @@
     <meta charset="utf-6">
     <meta name="viewport" content="width=device-width">
     <title>GitHub posted resume</title>
+  <!-- This is the normalize code suggested but I have found results vary!!! -->
   <link
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     rel="stylesheet"
@@ -26,8 +27,9 @@
         </div>
       
       <!-- This sets the image to the right and slightly rounds the corners -->    
-        <img src = "images/headshot.JPG" height = "150" alt = "William" class="image-rounding" align="right">
-      
+        <div>
+          <img src = "images/headshot.JPG" height = "150" alt = "William" class="image-rounding" align="right">
+        </div>
       <!-- Sets the first 6 rulers position so that they point to the headshot -->  
         <br>
         <br>
@@ -41,7 +43,7 @@
         <br>
         <br>
       
-      <!-- This is the intro with a link to my GitHub email -->
+      <!-- This is the intro with a link to my email -->
         <h3>
           Welcome! I am William Baldwin
         </h3>
@@ -49,21 +51,24 @@
           I am a software developer currently residing in Springfield, Ohio.
         <br>
           As a hobbyist board and card game designer, I am motivated to:
-        <ol> 
-            <li>Make software that that rolls through intended tasks like dice on a smooth felt table.</li>
-            <li>Develop and update functionality to keep drawing those optimal performance cards.</li>
-            <li>Write clean code that is easily understood like a simple rulebook.</li> 
-        </ol>   
+          <div class = "table">
+            <ol id = "horizontal-list"> 
+              <li>Make software that that rolls through intended tasks like dice on a smooth felt table.</li>
+              <li>Develop and update functionality to keep drawing those optimal performance cards.</li>
+              <li>Write clean code that is easily understood like a simple rulebook.</li> 
+            </ol>
+          </div>  
         </p>  
         <p>
-          Please browse my website and <a href= mailto "WilliamEJBaldwin@users.noreply.github.com ">contact me</a> if I can assist your needs.
+          Please browse my website and <a href= mailto "wejbaldwin@yahoo.com ">contact me</a> if I can assist your needs.
         </p>
         <br>
         <hr>
+        <br>
 
       <!-- This is the about me section telling a bit about myself and my hobbies -->
-        <article id="About William">About William>
-        <h3>About William</h3>
+        <article id="About William">
+        <h3>About William</h3>  
         <p>
           Working with other game designers gave me great pleasure while also teaching me good techniques for collaboration. 
           After having 2 of my games published, I wanted to think about how I could showcase them better and build a website for my designs.
@@ -76,7 +81,7 @@
           Being a student at <a href = "http://www.thinkful.com">Thinkful</a>, I am overjoyed with the path to my future as a software developer.
         </p>
         <p>
-          If you are looking for a developer with a thirst for knowledge that can fit your team, please reach out through my <a href= mailto "74319592+WilliamEJBaldwin@users.noreply.github.com ">GitHub email</a>. 
+          If you are looking for a developer with a thirst for knowledge that can fit your team, please reach out through my <a href= mailto "wejbaldwin@yahoo.com ">email</a>. 
           I am eager to join in, collaborate, problem solve, and learn. 
           My favorite thing to eliminate in life: the possibility of disappointment!
         </p>
@@ -88,27 +93,31 @@
           Contact William 
         </h3>
         <p>
-          <ul>
-            <li>  
-              <a href= mailto "74319592+WilliamEJBaldwin@users.noreply.github.com ">GitHub email</a>
-            </li>
-            <br>
-            <li>
-              <a href = "https://www.github.com/WilliamEJBaldwin">GetHub profile</a>
-            </li>
-            <br>
-            <li>
-              <a href = "https://www.linkedin.com/in/william-b-251922b1/">LinkIn profile</a>
-            </li>
-          </ul>
+          <div class = "table">
+            <ul id = "horizontal-list">
+              <li>  
+                <a href= mailto "wejbaldwin@yahoo.com ">My email</a>
+              </li>
+              <br>
+              <li>
+                <a href = "https://www.github.com/WilliamEJBaldwin">GetHub profile</a>
+              </li>
+              <br>
+              <li>
+                <a href = "https://www.linkedin.com/in/william-b-251922b1/">LinkIn profile</a>
+              </li>
+            </ul>
+          </div>
         </p>
         <br>
         <hr>
         <br>
 
-        <!-- This is added information about some past achievements -->
+        <!-- This is added information about some past achievements with links -->
         <p>
           Check out the games on which I was a proud co-designer! Dark Domains and Te Kuiti!
+            <br>
+            <br>
             <a href="https://boardgamegeek.com/boardgame/166854/dark-domains">
               <img src="images/DarkDomains.jpg" height="150">
             </a>
