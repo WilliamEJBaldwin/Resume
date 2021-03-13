@@ -42,14 +42,25 @@ a:hover   { color: rgb(241, 124, 236); }
 a:active  { color: rgb(238, 18, 55);  }
 
 /* Establish position and border of headshot */
+main > div > img {
+  margin-right: 470px;
+  margin-top: 15px;
+}
+
+/* Establish border for all images */
 img {
-  margin: 20px;
   border: 10px solid black;
- }
+}
 
 /* Establish rounding to be applied to headshot */
 .image-rounding {
   border-radius: 10%; 
+}
+
+/* Applying list-centering technique from the css-tricks website */
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
 
 /*Establish parameters for all teritary headings */
@@ -58,22 +69,25 @@ h3{
   font-family: 'Courier New', Courier, monospace;
   font-size: 22px;
   letter-spacing: 5px;
+  margin-left: 600px;
+  margin-right: 600px;
 }
 
 /*Set parameters for the numbered intro information */
 ol {
-  margin-left: 160px;
-  margin-right: 160px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 /* Set parameters for the bulleted contact list */
 ul {
-  margin-left: 400px;
-  margin-right: 400px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
+}
+
+/* Trying to get the text and numbers/bullets to center */
+li {
+  text-align: center;
 }
 
 /* Format to be applied to all paragraphs */
@@ -81,8 +95,8 @@ p {
   text-align:center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 600px;
+  margin-right: 600px;
 }
 
 /* Establish the footer */
