@@ -2,6 +2,7 @@
 body{
   background-color:rgb(210, 250, 159);
 }
+
 /* Establishing the appearance of the heading */
 h1 {
   color: rgb(210, 250, 159);
@@ -42,9 +43,8 @@ a:hover   { color: rgb(241, 124, 236); }
 a:active  { color: rgb(238, 18, 55);  }
 
 /* Establish position of headshot */
-
 #center {
-    text-align: center;
+  text-align: center;
 }
 
 /* Establish border for all images */
