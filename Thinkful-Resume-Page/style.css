@@ -41,10 +41,10 @@ a:visited { color: rgb(125, 151, 6);   }
 a:hover   { color: rgb(241, 124, 236); }
 a:active  { color: rgb(238, 18, 55);  }
 
-/* Establish position and border of headshot */
-main > div > img {
-  margin-right: 470px;
-  margin-top: 15px;
+/* Establish position of headshot */
+
+#center {
+    text-align: center;
 }
 
 /* Establish border for all images */
