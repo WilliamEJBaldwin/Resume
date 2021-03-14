@@ -1,9 +1,8 @@
 <!-- This is the standard section to be included in all HTML code -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-6">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8"/>
     <title>GitHub posted resume</title>
   <!-- This is the normalize code suggested but I have found results vary!!! -->
   <link
@@ -26,23 +25,20 @@
           </header>  
         </div>
       
-      <!-- This sets the image to the right and slightly rounds the corners -->    
-        <div>
-          <img src = "images/headshot.JPG" height = "150" alt = "William" class="image-rounding" align="right">
-        </div>
-      <!-- Sets the first 6 rulers position so that they point to the headshot -->  
-        <br>
-        <br>
-        <br>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <hr>
-        <br>
-        <br>
-      
+      <!-- This sets the headshot to the center and slightly rounds the corners -->    
+       
+          <div id="center">
+            <img src="images/headshot.JPG" height="150" alt="William" class="image-rounding">
+          </div>
+          <hr>
+          <hr>
+          <hr>
+          <hr>
+          <hr>
+          <hr>
+          <br>
+          <br>
+    
       <!-- This is the intro with a link to my email -->
         <h3>
           Welcome! I am William Baldwin
@@ -51,23 +47,22 @@
           I am a software developer currently residing in Springfield, Ohio.
         <br>
           As a hobbyist board and card game designer, I am motivated to:
-          <div class = "table">
-            <ol id = "horizontal-list"> 
+          <div class="table">
+            <ol id="intro-list"> 
               <li>Make software that that rolls through intended tasks like dice on a smooth felt table.</li>
               <li>Develop and update functionality to keep drawing those optimal performance cards.</li>
               <li>Write clean code that is easily understood like a simple rulebook.</li> 
             </ol>
           </div>  
-        </p>  
         <p>
-          Please browse my website and <a href= "mailto:wejbaldwin@yahoo.com">contact me</a> if I can assist your needs.
+          Please browse my website and <a href="mailto:wejbaldwin@yahoo.com">contact me</a> if I can assist your needs.
         </p>
         <br>
         <hr>
         <br>
 
       <!-- This is the about me section telling a bit about myself and my hobbies -->
-        <article id="About William">
+        <article id="About-William">About William> 
         <h3>About William</h3>  
         <p>
           Working with other game designers gave me great pleasure while also teaching me good techniques for collaboration. 
@@ -78,13 +73,14 @@
           The feeling I had when 2 independent companies entrusted my work with so much of their capital, time, and effort was euphoric. I hope to gain that same respect and trust in my future employer as a developer.
         </p>
         <p>
-          Being a student at <a href = "http://www.thinkful.com">Thinkful</a>, I am overjoyed with the path to my future as a software developer.
+          Being a student at <a href="http://www.thinkful.com">Thinkful</a>, I am overjoyed with the path to my future as a software developer.
         </p>
         <p>
           If you are looking for a developer with a thirst for knowledge that can fit your team, please reach out through my <a href= "mailto:wejbaldwin@yahoo.com">email</a>. 
           I am eager to join in, collaborate, problem solve, and learn. 
           My favorite thing to eliminate in life: the possibility of disappointment!
         </p>
+        </article> 
         <br>
         <hr>
 
@@ -93,22 +89,19 @@
           Contact William 
         </h3>
         <p>
-          <div class = "table">
-            <ul id = "horizontal-list">
+          <div class="table">
+            <ul id="contact-list">
               <li>  
-                <a href= "mailto:wejbaldwin@yahoo.com">My email</a>
+                <a href="mailto:wejbaldwin@yahoo.com">My email</a>
               </li>
-              <br>
               <li>
-                <a href = "https://www.github.com/WilliamEJBaldwin">GetHub profile</a>
+                <a href="https://www.github.com/WilliamEJBaldwin">GetHub profile</a>
               </li>
-              <br>
               <li>
-                <a href = "https://www.linkedin.com/in/william-b-251922b1/">LinkIn profile</a>
+                <a href="https://www.linkedin.com/in/william-b-251922b1/">LinkIn profile</a>
               </li>
             </ul>
           </div>
-        </p>
         <br>
         <hr>
         <br>
@@ -119,25 +112,25 @@
             <br>
             <br>
             <a href="https://boardgamegeek.com/boardgame/166854/dark-domains">
-              <img src="images/DarkDomains.jpg" height="150">
+              <img src="images/DarkDomains.jpg" alt="Dark Domains" height="150">
             </a>
             <a href="https://boardgamegeek.com/boardgame/149885/te-kuiti">
-              <img src="images/TeKuiti.jpg" height="150">
+              <img src="images/TeKuiti.jpg" alt="Te Kuiti" height="150">
             </a>
         </p>
       
       <!-- This is my footer section with copyright -->
-      <div class = "wrapper">
+      <div class="wrapper">
         <footer>
           © William Baldwin 
           <br>
         </footer>  
       </div>
 
-    <main>
+      <script src="script.js"></script>
     
-    <script src="script.js"></script>
-  
+    </main>
+    
   </body>
 
 </html>
